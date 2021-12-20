@@ -8,5 +8,6 @@
  * Zwraca 1 - macierz osobliwa - dzielenie przez 0
  */
 int eliminate(Matrix *mat, Matrix *b);
+void diagonala(Matrix *mat, Matrix *b, int i);
 
 #endif
